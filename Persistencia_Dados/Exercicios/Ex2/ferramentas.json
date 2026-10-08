@@ -1,0 +1,22 @@
+[
+  {
+    "nome": "Martelo",
+    "quantidade": 3,
+    "custo": 12.9
+  },
+  {
+    "nome": "Chave de fenda",
+    "quantidade": 7,
+    "custo": 8.5
+  },
+  {
+    "nome": "Chave inglesa",
+    "quantidade": 12,
+    "custo": 15
+  },
+  {
+    "nome": "Regua",
+    "quantidade": 35,
+    "custo": 4.9
+  }
+]
