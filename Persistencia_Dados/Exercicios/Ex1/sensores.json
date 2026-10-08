@@ -1,0 +1,20 @@
+[
+  {
+    "codigo": 1234,
+    "tipo": "Temperatura",
+    "leituraAtual": 32.5,
+    "statusSensor": "Operando"
+  },
+  {
+    "codigo": 5678,
+    "tipo": "Pressao",
+    "leituraAtual": 10.2,
+    "statusSensor": "Operando"
+  },
+  {
+    "codigo": 9012,
+    "tipo": "Temperatura",
+    "leituraAtual": 55.1,
+    "statusSensor": "Alerta"
+  }
+]
