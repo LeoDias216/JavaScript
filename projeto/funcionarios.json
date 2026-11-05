@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "nome": "Leon Kennedy",
+    "idade": 50,
+    "funcao": "Backend"
+  },
+  {
+    "id": 2,
+    "nome": "Jim Sakai",
+    "idade": 44,
+    "funcao": "Frontend"
+  },
+  {
+    "id": 3,
+    "nome": "Kleiton Ofiwar",
+    "idade": 48,
+    "funcao": "Banco de dados"
+  },
+  {
+    "id": 4,
+    "nome": "Arthur Morgan",
+    "idade": 35,
+    "funcao": "Backend"
+  }
+]

@@ -9,17 +9,17 @@ function carregarFuncionarios() {
 
 function consultarPorId(funcionarios, id) {
   // PASSO 5: use find() para procurar funcionario.id === id
-  return undefined;
+  return funcionarios.find(funcionario => funcionario.id === id)
 }
 
 function consultarPorNome(funcionarios, nome) {
   // PASSO 6: use find() para procurar nome exato, sem diferenciar maiúsculas
-  return undefined;
+  return funcionarios.find(funcionario => funcionario.nome.toLowerCase() === nome.toLowerCase())
 }
 
 function filtrarPorFuncao(funcionarios, funcao) {
   // PASSO 7: use filter() para retornar todos da mesma função
-  return [];
+  return funcionarios.filter(funcionario => funcionario.funcao.toLowerCase() === funcao.toLowerCase())
 }
 
 function mostrarFuncionario(funcionario) {
@@ -36,6 +36,8 @@ try {
   funcionarios.forEach(mostrarFuncionario);
   console.log('\n=== CONSULTA POR ID 2 ===');
   mostrarFuncionario(consultarPorId(funcionarios, 2));
+  console.log('\n=== CONSULTA POR ID 99 ===');
+  mostrarFuncionario(consultarPorId(funcionarios, 99));
   console.log('\n=== CONSULTA POR NOME ===');
   mostrarFuncionario(consultarPorNome(funcionarios, funcionarios[0].nome));
   console.log('\n=== FILTRO POR FUNÇÃO ===');

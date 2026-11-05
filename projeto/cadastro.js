@@ -23,13 +23,21 @@ async function cadastrarFuncionarios() {
 
     // PASSO 2: acrescente o objeto ao array usando push().
     // funcionarios.push(funcionario);
+
+    const funcionario = { id: i + 1, nome: nome, idade: idade, funcao: funcao };
+    funcionarios.push(funcionario);
   }
+  
 
   // PASSO 3: transforme o array em texto JSON formatado.
   // const json = JSON.stringify(funcionarios, null, 2);
 
   // PASSO 4: grave o texto em funcionarios.json.
   // fs.writeFileSync('funcionarios.json', json, 'utf8');
+
+  const json = JSON.stringify(funcionarios, null, 2);
+  fs.writeFileSync('funcionarios.json', json, 'utf8');
+
 
   console.log(`\nRegistros no array: ${funcionarios.length}`);
   console.log('Quando concluir os PASSOS 1 a 4, este programa gravará o JSON.');
